@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="code\http\HttpContext.cpp">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="code\http\HttpRequest.cpp">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="code\http\HttpResponse.cpp">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="code\http\HttpServer.cpp">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="code\middleware\CorsMiddleware.cpp">
+      <Filter>middleware</Filter>
+    </ClCompile>
+    <ClCompile Include="code\middleware\MiddlewareChain.cpp">
+      <Filter>middleware</Filter>
+    </ClCompile>
+    <ClCompile Include="code\router\Router.cpp">
+      <Filter>router</Filter>
+    </ClCompile>
+    <ClCompile Include="code\session\Session.cpp">
+      <Filter>session</Filter>
+    </ClCompile>
+    <ClCompile Include="code\session\SessionManager.cpp">
+      <Filter>session</Filter>
+    </ClCompile>
+    <ClCompile Include="code\session\SessionStorage.cpp">
+      <Filter>session</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ssl\SslConfig.cpp">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ssl\SslConnection.cpp">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ssl\SslContext.cpp">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="code\utils\DbConnection.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="code\utils\DbConnectionPool.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="http">
+      <UniqueIdentifier>{581bbeca-83e7-422c-b4c7-f6270ebf7694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="middleware">
+      <UniqueIdentifier>{f32b2937-3669-4690-b836-dfa25f5f49df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="router">
+      <UniqueIdentifier>{8989123a-23e2-45ab-bf7b-9a8abf99abbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="session">
+      <UniqueIdentifier>{9616d0f8-d3f2-4441-92ff-23e6c65667e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ssl">
+      <UniqueIdentifier>{61a97190-c1fc-4227-b7a9-334612806c9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{f431831c-258e-459b-956b-95ec0481b850}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\http\HttpContext.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="code\http\HttpRequest.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="code\http\HttpResponse.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="code\http\HttpServer.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="code\middleware\CorsConfig.h">
+      <Filter>middleware</Filter>
+    </ClInclude>
+    <ClInclude Include="code\middleware\CorsMiddleware.h">
+      <Filter>middleware</Filter>
+    </ClInclude>
+    <ClInclude Include="code\middleware\Middleware.h">
+      <Filter>middleware</Filter>
+    </ClInclude>
+    <ClInclude Include="code\middleware\MiddlewareChain.h">
+      <Filter>middleware</Filter>
+    </ClInclude>
+    <ClInclude Include="code\router\Router.h">
+      <Filter>router</Filter>
+    </ClInclude>
+    <ClInclude Include="code\router\RouterHandler.h">
+      <Filter>router</Filter>
+    </ClInclude>
+    <ClInclude Include="code\session\Session.h">
+      <Filter>session</Filter>
+    </ClInclude>
+    <ClInclude Include="code\session\SessionManager.h">
+      <Filter>session</Filter>
+    </ClInclude>
+    <ClInclude Include="code\session\SessionStorage.h">
+      <Filter>session</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ssl\SslConfig.h">
+      <Filter>ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ssl\SslConnection.h">
+      <Filter>ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ssl\SslContext.h">
+      <Filter>ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ssl\SslTypes.h">
+      <Filter>ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="code\utils\DbConnection.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="code\utils\DbConnectionPool.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="code\utils\DbException.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="code\utils\FileUtil.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="code\utils\JsonUtil.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="code\utils\MysqlUtil.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

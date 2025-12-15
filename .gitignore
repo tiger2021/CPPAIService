@@ -1,0 +1,5 @@
+.vs/
+CppAIService/bin
+CppAIService/obj
+HttpServer/bin
+HttpServer/obj
